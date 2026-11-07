@@ -17,7 +17,7 @@ An Excel/VBA tool for portfolio optimisation and market-risk measurement on a 10
 
 1. Install Python 3 and the data library: `pip install yfinance`
 2. Run `python3 download_prices.py`. It creates `prices.csv` next to the script
-3. Open `Portfolio_Optimizer.xlsm` (keep it in the same folder as `prices.csv`) and enable macros
+3. Open `Portfolio.xlsm` (keep it in the same folder as `prices.csv`) and enable macros
 4. On macOS, Excel will ask for permission to read `prices.csv` the first time: grant it
 5. Click the **Aggiorna tutto** button on the Dashboard (runs the `RunAll` macro)
 
